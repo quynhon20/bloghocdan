@@ -13,7 +13,7 @@ app.use(express.static('public'));
 
 var homeRouter = require("./app/routers/home.router");
 app.use("/", homeRouter);
-
+//xin chào
 app.listen(3002, function () {
     console.log("Khoi tao server nodejs (localhost:3002)");
 });
